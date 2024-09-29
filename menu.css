@@ -1,0 +1,143 @@
+@import url('fonts.css');
+body {
+    background-color: rgb(63, 125, 224);
+    margin: 0px;
+}
+
+/* Hamburger Icon */
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.menu-item {
+    color: white;
+    font-size: clamp(1rem, 4vw, 4rem);
+    font-family: CircularSpTitle-Bold;
+    display: block;
+    text-decoration: none;
+    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+}
+
+.hamburger .line {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: all 0.4s;
+}
+
+/* Toggle hamburger to 'X' shape */
+.hamburger.change .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 10px);
+}
+
+.hamburger.change .line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.change .line:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -10px);
+}
+
+/* Navigation Menu */
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Start menu off-screen to the left */
+    width: 250px;
+    height: 100%;
+    background-color: rgb(34, 67, 140); /* Menu color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: left 0.6s ease, opacity 0.6s ease;
+    pointer-events: none; /* Disable interactions when hidden */
+    z-index: 1;
+}
+
+.menu.show {
+    left: 0; /* Slide in from the left */
+    opacity: 1;
+    pointer-events: auto; /* Enable interactions when shown */
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    margin: 15px 0;
+    transition: opacity 0.3s ease;
+}
+
+.menu ul li a {
+    font-family: 'CircularSpTitle-Bold';
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a i {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Hover effect: reduce opacity for other items */
+.menu ul li:hover {
+    opacity: 1;
+}
+
+.menu ul li:not(:hover) {
+    opacity: 0.5;
+}
+
+/* Menu Background Pattern */
+#menu-background-pattern {
+    height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient(
+        rgba(225, 255, 255, 0.1) 9%,
+        transparent 9%
+    );
+    background-position: 0% 0%;
+    background-size: 12vmin 12vmin;
+    position: fixed; /* Cover the entire screen */
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    transition: opacity 2000ms ease,
+                background-size 2000ms ease,
+                background-position 2000ms ease;
+}
+
+/* Hover effect for menu items */
+#menu-items .menu-item:hover ~ #menu-background-pattern {
+    background-size: 11vmin 11vmin;
+    opacity: 0.5;
+}
+
+/* Data index background position effects */
+.menu[data-active-index="0"] ~ #menu-background-pattern {
+    background-position: 0% -25%;
+}
+
+.menu[data-active-index="1"] ~ #menu-background-pattern {
+    background-position: 0% -50%;
+}
+
+.menu[data-active-index="2"] ~ #menu-background-pattern {
+    background-position: 0% -75%;
+}
+
+.menu[data-active-index="3"] ~ #menu-background-pattern {
+    background-position: 0% -100%;
+}

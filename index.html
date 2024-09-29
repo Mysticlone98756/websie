@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+</html>
+<title>Home - Mystic's website</title>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet"  type="text/css" href="fonts.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <body>
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    
+        <nav class="menu" data-active-index="0">
+            <ul id="menu-items">
+                <li><a href="./sublinks/aboutme.html" class="menu-item" onclick="setActiveIndex(0)"><i class="fas fa-user"></i> About Me</a></li>
+                <li><a href="./sublinks/contactme.html" class="menu-item" onclick="setActiveIndex(1)"><i class="fas fa-envelope"></i> Contact Me</a></li>
+                <li><a href="./sublinks/whatioffer.html" class="menu-item" onclick="setActiveIndex(2)"><i class="fas fa-briefcase"></i> What I Offer</a></li>
+                <li><a href="./sublinks/downloads.html" class="menu-item" onclick="setActiveIndex(3)"><i class="fas fa-download"></i> Downloads</a></li>
+                <li><a href="./sublinks/visualizer.html" class="menu-item" onclick="setActiveIndex(4)"><i class="fas fa-chart-bar"></i> Visualizer</a></li>
+            </ul>
+        </nav>
+    
+        <script src="script.js"></script>
+        <div id="menu-background-pattern"></div>
+    </body>
+</head>

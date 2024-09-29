@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Visualizer</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom Font -->
+    <link rel="stylesheet" href="/websie/fonts.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/websie/sublinks/vizualizerstuff/style.css">
+</head>
+<body>
+    <div id="visualizer">
+        <!-- Visualizer will render here -->
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="controls">
+        <label for="audio-upload">
+            <i class="fas fa-file-audio"></i> Upload Audio
+        </label>
+        <input type="file" id="audio-upload" accept="audio/*" style="display: none;">
+        <audio id="audio-player"></audio>
+    </div>
+    
+    <div class="music-controls">
+        <label for="play">
+            <i class="fa fa-play"></i>
+        </label>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <!-- Local jsmediatags library -->
+    <script src="/websie/libs/jsmediatags.min.js"></script>
+    <script src="/websie/sublinks/vizualizerstuff/test2.js"></script>
+</body>
+</html>

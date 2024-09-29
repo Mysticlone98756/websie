@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'San Francisco Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+    color: white;
+}
+
+.music-interface {
+    text-align: center;
+    width: 400px;
+}
+
+.song-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.song-info {
+    margin: 10px 0;
+}
+
+.song-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.artist-name {
+    font-size: 16px;
+    color: #888;
+}
+
+.lyrics {
+    margin: 20px 0;
+    height: 100px;
+    overflow-y: auto;
+    text-align: center;
+    background: #222;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.control-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.time-bar {
+    flex-grow: 1;
+    height: 5px;
+    background: #555;
+    margin: 0 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #1db954;
+    width: 0;
+    border-radius: 5px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+}
+
+.volume-control input {
+    width: 100px;
+    margin-left: 10px;
+}

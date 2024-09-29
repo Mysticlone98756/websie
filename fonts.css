@@ -1,0 +1,104 @@
+ @font-face {
+    font-family: 'CircularSpTitle-Bold';
+    src: url('fonts/CircularSpTitle-Bold.ttf');
+    font-style: normal;
+    font-weight: 50;
+}
+
+@font-face {
+    font-family: 'Comfortaa-Light';
+    src: url('fonts/Comfortaa-Light.ttf');
+    font-style: normal;
+    font-weight: 50;
+}
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('fonts/Comfortaa-Regular.ttf');
+    font-style: normal;
+    font-weight: 50;
+}
+
+@font-face {
+    font-family: 'Comfortaa-Medium';
+    src: url('fonts/Comfortaa-Medium.ttf');
+    font-style: normal;
+    font-weight: 50;
+}
+
+@font-face {
+    font-family: 'Comfortaa-SemiBold';
+    src: url('fonts/Comfortaa-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 50;
+}
+
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('fonts/Comfortaa-Bold.ttf');
+    font-style: normal;
+    font-weight: 50;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Black Italic';
+    src: url(/websie/fonts/SF\ Pro\ Display\ Black\ Italic.OTF) format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url(/websie/fonts/SF\ Pro\ Display\ Bold.OTF) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Heavy Italic';
+    src: url(/websie/fonts/SF\ Pro\ Display\ Heavy\ Italic.OTF) format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Light Italic';
+    src: url(/websie/fonts/SF\ Pro\ Display\ Light\ Italic.OTF) format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: url(/websie/fonts/SF\ Pro\ Display\ Medium.OTF) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url(/websie/fonts/SF\ Pro\ Display\ Regular.OTF) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Semi-Bold Italic';
+    src: url(/websie/fonts/SF\ Pro\ Display\ Semi-Bold\ Italic.OTF) format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Thin Italic';
+    src: url(/websie/fonts/SF\ Pro\ Display\ Thin\ Italic.OTF) format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Ultra-Light Italic';
+    src: url(/websie/fonts/SF\ Pro\ Display\ Ultra\ Light\ Italic.OTF) format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
