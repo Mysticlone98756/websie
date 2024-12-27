@@ -42,63 +42,63 @@
 
 @font-face {
     font-family: 'SF Pro Display Black Italic';
-    src: url(/websie/fonts/SF\ Pro\ Display\ Black\ Italic.OTF) format('opentype');
+    src: url("fonts/SF Pro Display Black Italic.OTF") format('opentype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'SF Pro Display Bold';
-    src: url(/websie/fonts/SF\ Pro\ Display\ Bold.OTF) format('opentype');
+    src: url("fonts/SF Pro Display Bold.OTF") format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SF Pro Display Heavy Italic';
-    src: url(/websie/fonts/SF\ Pro\ Display\ Heavy\ Italic.OTF) format('opentype');
+    src: url("fonts/SF Pro Display Heavy Italic.OTF") format('opentype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'SF Pro Display Light Italic';
-    src: url(/websie/fonts/SF\ Pro\ Display\ Light\ Italic.OTF) format('opentype');
+    src: url("fonts/SF Pro Display Light Italic.OTF") format('opentype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'SF Pro Display Medium';
-    src: url(/websie/fonts/SF\ Pro\ Display\ Medium.OTF) format('opentype');
+    src: url("fonts/SF Pro Display Medium.OTF") format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SF Pro Display Regular';
-    src: url(/websie/fonts/SF\ Pro\ Display\ Regular.OTF) format('opentype');
+    src: url("fonts/SF Pro Display Regular.OTF") format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SF Pro Display Semi-Bold Italic';
-    src: url(/websie/fonts/SF\ Pro\ Display\ Semi-Bold\ Italic.OTF) format('opentype');
+    src: url("fonts/SF Pro Display Semi-Bold Italic.OTF") format('opentype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'SF Pro Display Thin Italic';
-    src: url(/websie/fonts/SF\ Pro\ Display\ Thin\ Italic.OTF) format('opentype');
+    src: url("fonts/SF Pro Display Thin Italic.OTF") format('opentype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'SF Pro Display Ultra-Light Italic';
-    src: url(/websie/fonts/SF\ Pro\ Display\ Ultra\ Light\ Italic.OTF) format('opentype');
+    src: url("fonts/SF Pro Display Ultra-Light Italic.OTF") format('opentype');
     font-weight: normal;
     font-style: italic;
 }

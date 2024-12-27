@@ -5,19 +5,91 @@ body {
     margin: 0px;
 }
 
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 2em;
+    width: 300px;
+    background: #1c1f2b;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.box::after, .box::before{
+    --angle: 0deg;
+    content: '' ;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), transparent 70%, #ff4545, #ff0095, #006aff);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding:3px;
+    border-radius: 11px;
+    animation: 3s spin linear infinite;
+}
+
+.box::before{
+filter: blur(1.5rem);
+}
+
+@keyframes spin {
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+}
+
+
+
+
+h1 {
+    position: fixed;
+    left: 450px;
+}
+
+.fonted-text {
+    font-family: CircularSpTitle-Bold;
+}
+
+.fonted-text:hover {
+    animation: gradientAnimation 0.3s ease; /* Apply the animation */
+}
+
 .text-container {
     font-family: CircularSpTitle-Bold;
    text-align: center;
 }
 
 .hover-gradient {
-    font-size: 3em; /* Adjust size as needed */
+    font-size: 2em; /* Adjust size as needed */
     background: linear-gradient(270deg, #ffffff, #cccccc, #666666, #333333, #000000, #666666, #cccccc, #ffffff); /* Shades of white, gray, and black */
     background-size: 300% 300%; /* Adjust size for animation effect */
-    animation: gradientAnimation 5s ease infinite; /* Apply the animation */
+    animation: gradientAimation 3s ease infinite; /* Apply the animation */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+@keyframes towhite {
+    0% {
+        color: #000
+    }
+    
+    100% {
+        color: #fff
+    }
 }
 
 @keyframes gradientAnimation {

@@ -1,10 +1,3 @@
-const currentUrl = window.location.href;
-    
-    if (currentUrl.endsWith('.html')) {
-      const newUrl = currentUrl.replace('.html', '');
-      window.history.pushState({}, "", newUrl);
-}
-
 function toggleMenu() {
     const menu = document.querySelector('.menu');
     const hamburger = document.querySelector('.hamburger');

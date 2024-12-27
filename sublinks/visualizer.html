@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="visualizer/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico"/>
+    <title>Mystic's visualizer</title>
+</head>
+<body>
+    <div class="player-container">
+      <div class="music-player">
+        <!-- Frosted Glass Effect -->
+        <div class="player-box">
+          <!-- Import Music Button -->
+          <div class="import-music">
+            <input type="file" id="file-input" accept="audio/*">
+            <label for="file-input" class="import-btn"><i class="fas fa-music"></i> Import Music</label>
+          </div>
+          
+          <div class="song-info">
+            <img id="song-image" src="path/to/default-image.jpg" alt="Song Image">
+            <h3 id="song-title">Song Title</h3>
+            <h4 id="song-artist">Artist Name</h4>
+          </div>
+          
+          <div class="player-cusontrols">
+            <button id="play-pause" class="control-btn"><i class="fas fa-play"></i></button>
+            <input type="range" id="progress-bar" class="progress-bar" value="0" step="1">
+        </div>        
+          
+          <div class="lyrics-box" id="lyrics-box">
+            <!-- Lyrics will be dynamically injected here -->
+          </div>
+          
+          <div id="visualizer" class="visualizer">
+            <canvas id="canvas"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" defer></script>
+    <script src="visualizer/js/jsmediatags.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/lyrics-snatcher@1.1.0/index.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@stef-0012/synclyrics@2.5.10/dist/index.min.js" defer></script>
+    <script src="visualizer/script.js" defer></script>
+</body>
+</html>

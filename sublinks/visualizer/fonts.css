@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'CircularSpTitle-Bold';
+    src: url('../../fonts/CircularSpTitle-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700; /* Bold */
+}
+
+@font-face {
+    font-family: 'Comfortaa-Light';
+    src: url('../../fonts/Comfortaa-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300; /* Light */
+}
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../../fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400; /* Regular */
+}
+
+@font-face {
+    font-family: 'Comfortaa-Medium';
+    src: url('../../fonts/Comfortaa-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500; /* Medium */
+}
+
+@font-face {
+    font-family: 'Comfortaa-SemiBold';
+    src: url('../../fonts/Comfortaa-SemiBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600; /* Semi-Bold */
+}
+
+@font-face {
+    font-family: 'Comfortaa-Bold';
+    src: url('../../fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700; /* Bold */
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../../fonts/SF_Pro_Display_Black_Italic.otf") format('opentype');
+    font-style: italic;
+    font-weight: 900; /* Black Italic */
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../../fonts/SF_Pro_Display_Bold.otf") format('opentype');
+    font-style: normal;
+    font-weight: 700; /* Bold */
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../../fonts/SF_Pro_Display_Heavy_Italic.otf") format('opentype');
+    font-style: italic;
+    font-weight: 800; /* Heavy Italic */
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../../fonts/SF_Pro_Display_Light_Italic.otf") format('opentype');
+    font-style: italic;
+    font-weight: 300; /* Light Italic */
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../../fonts/SF_Pro_Display_Medium.otf") format('opentype');
+    font-style: normal;
+    font-weight: 500; /* Medium */
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../../fonts/SF_Pro_Display_Regular.otf") format('opentype');
+    font-style: normal;
+    font-weight: 400; /* Regular */
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../../fonts/SF_Pro_Display_Semi_Bold_Italic.otf") format('opentype');
+    font-style: italic;
+    font-weight: 600; /* Semi-Bold Italic */
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../../fonts/SF_Pro_Display_Thin_Italic.otf") format('opentype');
+    font-style: italic;
+    font-weight: 200; /* Thin Italic */
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url("../../fonts/SF_Pro_Display_Ultra_Light_Italic.otf") format('opentype');
+    font-style: italic;
+    font-weight: 100; /* Ultra-Light Italic */
+}
